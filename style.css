@@ -1,0 +1,91 @@
+body {
+  background-color: #cad0d3;
+  font-family: 'poppins', sans-serif;
+  margin: 0;
+}
+nav {
+  background-color: whitesmoke;
+  display: flex;
+  height: 10vh;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  font-weight: bolder;
+}
+.nav-left {
+  display: flex;
+  flex: 70%;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+.nav-left a {
+  padding-right: 20px;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 30%;
+}
+
+.nav-right a {
+  color: white;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: #150935;
+}
+
+main {
+  margin: 100px 20px;
+  padding: 30px 0 50px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  display: flex;
+}
+.left {
+  margin-left: 40px;
+  width: 60%;
+}
+main a {
+  text-decoration: none;
+  background-color: #150935;
+  padding: 5px 25px;
+  border-radius: 30px;
+  color: white;
+}
+.left-sect {
+  display: flex;
+  align-items: center;
+}
+.left-sect p {
+  margin-left: 30px;
+}
+.sosmed {
+  font-size: 40px;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+.right {
+  display: flex;
+  flex: 40%;
+  justify-content: center;
+}
+.card {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #5c5c5c;
+}
+.card img {
+  border-radius: 10px 10px 0 0;
+}
+.card h3,
+h5 {
+  display: flex;
+  justify-content: center;
+  margin-top: -8px;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>day 4</title>
+    <link rel="stylesheet" href="project.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <img src="assets/download-removebg-preview.png" alt="logo" width="70" />
+        <ul>
+          <a href="index.html">Home</a>
+          <a href="project.html">My project</a>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a href="contact.html">Contact Me</a>
+      </div>
+    </nav>
+
+    <h1>ADD MY PROJECT</h1>
+    <main>
+      <div class="container-form">
+        <form>
+          <div>
+            <label for="project-name">Project Name</label>
+            <input type="text" id="project-name" />
+          </div>
+          <div class="label-date">
+            <label for="start-date" class="start-date">Start Date</label>
+            <label for="end-date" class="end-date">End Date</label>
+          </div>
+          <div class="label-date">
+            <input type="date" id="start-date" class="start-date" />
+            <input type="date" id="end-date" class="end-datee" />
+          </div>
+          <div>
+            <label for="description">Description</label>
+            <textarea id="description"></textarea>
+          </div>
+          <label>Technologies</label>
+          <div class="tech">
+            <input type="checkbox" id="node" value="node" />
+            <label for="node">Node Js</label>
+            <input type="checkbox" id="python" value="python" />
+            <label for="python">Python</label>
+          </div>
+          <div class="tech">
+            <input type="checkbox" id="laravel" value="laravel" />
+            <label for="laravel">Laravel</label>
+            <input type="checkbox" id="js" value="js" />
+            <label for="js">Javascript</label>
+          </div>
+          <div>
+            <label for="">Upload Image</label>
+            <input type="file" id="img" />
+          </div>
+          <div class="submit">
+            <button type="button" onclick="addPost(event)">Submit</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <!-- contents -->
+    <div class="post">
+      <h1>MY PROJECT</h1>
+      <div class="contents" id="contents">
+        <!-- <div class="card">
+          <img src="assets/download-removebg-preview.png" alt="" />
+          <h3>Title</h3>
+          <h6>Duration</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, doloremque.</p>
+          <div class="icon">
+            <i class="fa-brands fa-node-js"></i>
+            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-laravel"></i>
+            <i class="fa-brands fa-js"></i>
+          </div>
+          <div class="card-button">
+            <button>Edit</button>
+            <button>Delete</button>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <script src="project.js"></script>
+  </body>
+</html>
